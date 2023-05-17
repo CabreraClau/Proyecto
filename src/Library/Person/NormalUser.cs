@@ -19,7 +19,7 @@ public class NormalUser : Person
     {
 
 
-        return new list<Shelter>();
+        return new List<Shelter>();
     }
 }
 
