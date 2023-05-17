@@ -1,11 +1,13 @@
 namespace Library;
-public class Owner : Person
+public class Owner : User
 {
-    public Owner(string name, int id, int phonenumber, string email, string direction)
- : base(name, id, phonenumber, email, direction)
+     public Owner(string Name, long Id, int phonenumber, string email, string direction) : base(Name, Id, phonenumber, email, direction)
     {
-        /*
-        Metodos propios de la clase Owner
-        */
+        this.Name = Name;
+        this.Id = Id;
+        this.PhoneNumber = phonenumber;
+        this.Email = email;
+        this.Direction = direction;
     }
+        
 }

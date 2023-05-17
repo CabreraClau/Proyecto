@@ -2,27 +2,23 @@ using System;
 namespace Library;
 
 
-public class Person
+public abstract class User
 {
-    public string Name {get; }
-    public int Id {get;}
+    public string Name {get; set; }
+    public long Id {get; set;}
     public int PhoneNumber {get ; set;}
     public string Email {get; set;}
     public string Direction {get ; set;}
     
-    public Person(string name, int id, int phonenumber, string email, string direction)
+    public User(string Name, long Id, int phonenumber, string email, string direction)
     {
-        this.Name = name;
-        this.Id = id;
+        this.Name = Name;
+        this.Id = Id;
         this.PhoneNumber = phonenumber;
         this.Email = email;
         this.Direction = direction;
-
     }
     
 
-    public void ContactShelter(Shelter shelter)
-    {
-
-    }
+    
 }
