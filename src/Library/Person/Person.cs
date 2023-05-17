@@ -4,21 +4,19 @@ namespace Library;
 
 public class Person
 {
-    public string Nombre {get; }
-    public string Apellido {get ;}
-    public int Identidad {get;}
-    public int Telefono {get ; set;}
-    public string Correo {get; set;}
-    public string Direccion {get ; set;}
+    public string Name {get; }
+    public int Id {get;}
+    public int PhoneNumber {get ; set;}
+    public string Email {get; set;}
+    public string Direction {get ; set;}
     
-    public Person(string nombre, string apellido, int identidad, int telefono, string correo, string direccion)
+    public Person(string name, int id, int phonenumber, string email, string direction)
     {
-        this.Nombre = nombre;
-        this.Apellido = apellido;
-        this.Identidad = identidad;
-        this.Telefono = telefono;
-        this.Correo = correo;
-        this.Direccion = direccion;
+        this.Name = name;
+        this.Id = id;
+        this.PhoneNumber = phonenumber;
+        this.Email = email;
+        this.Direction = direction;
 
     }
     

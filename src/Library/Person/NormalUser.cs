@@ -1,8 +1,8 @@
 ﻿namespace Library;
 public class NormalUser : Person
 {
-    public NormalUser(string nombre, string apellido, int ci, int telefono, string correo, string direccion)
- : base(nombre, apellido, ci, telefono, correo, direccion)
+    public NormalUser(string name, int id, int phonenumber, string email, string direction)
+ : base(name, id, phonenumber, email, direction)
     {
 
     }
