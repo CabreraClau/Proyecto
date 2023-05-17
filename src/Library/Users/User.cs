@@ -12,13 +12,10 @@ public abstract class User
     
     public User(string Name, long Id, int phonenumber, string email, string direction)
     {
-        this.Name = Name;
+        this.Name = Name.Trim();
         this.Id = Id;
         this.PhoneNumber = phonenumber;
         this.Email = email;
         this.Direction = direction;
     }
-    
-
-    
 }
