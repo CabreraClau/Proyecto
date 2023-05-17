@@ -1,5 +1,5 @@
 using System.Collections.ObjectModel;
-namespace Library;
+using Library;
 
 public class NormalUserList
 {
