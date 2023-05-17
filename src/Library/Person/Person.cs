@@ -23,7 +23,7 @@ public class Person
     }
     
 
-    public void ContactarRefugios(Refugio refugio)
+    public void ContactShelter(Shelter shelter)
     {
 
     }
